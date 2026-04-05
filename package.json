@@ -1,0 +1,19 @@
+{
+  "name": "hub-api-contracts",
+  "version": "1.0.0",
+  "description": "Hub 생태계 프론트엔드-백엔드 공유 API 타입",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
