@@ -37,6 +37,8 @@ export interface StudentProfile {
   schoolType?: string;
   schoolLevel?: string;
   grade?: number;
+  neisAtptCode?: string;
+  neisSchulCode?: string;
 }
 
 /** 선생님 프로필 */
